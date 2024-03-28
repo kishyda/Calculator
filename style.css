@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333333;
+}
+
+.container {
+    display: flex;
+    background-color: gray;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+}
+
+.text-box {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+#input {
+    width: 100vh;
+    height: 65px;
+    font-size: 30px;
+    text-align: right;
+    color: white;
+    background-color: #333333;
+}
+
+.button-box {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    flex-grow: 1;
+    background-color: gray;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.column3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.column4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.column5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+button {
+    flex-grow: 1;
+    padding: 16px;
+    margin: 8px;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+}
+
+#clear {
+    background-color: darkred;
+}
+
+#equal {
+    background-color: green;
+}
+
+.credits-container {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.credits {
+    color: white;
+    text-align: center;
+}
