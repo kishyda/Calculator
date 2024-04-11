@@ -103,7 +103,6 @@ function evaluate() {
     }
     result = operation(result, operator, number);
     return result;
-
 }
 
 function operation(result, operator, number) {
